@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /README.md
+Allow: /index.html
+Allow: /css/
+Allow: /js/
+Allow: /favicon.svg
+Allow: /favicon.ico
+Allow: /favicon-96x96.png
+
+
+# Sitemap
+Sitemap: https://sumit.bd/sitemap.xml
+
+# Block access to certain files and directories
+Disallow: /.git/ 
+Disallow: /CNAME
+Disallow: /assets/
+Disallow: *.pdf
